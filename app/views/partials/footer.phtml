@@ -1,0 +1,12 @@
+    <footer class="row">
+      <div>
+        <p class="copyright">© <?php print date('Y'); ?> Typomedia Foundation. All rights reserved.</p>
+      </div>
+    </footer>
+
+    
+    <?php print $this->tag->javascriptInclude('js/foundation/vendor/jquery.js'); ?>
+    <?php print $this->tag->javascriptInclude('js/foundation/foundation.min.js'); ?>
+    <script>
+      $(document).foundation();
+    </script>

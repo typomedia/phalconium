@@ -1,0 +1,20 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <?php print $this->tag->stylesheetLink('css/foundation/foundation.css'); ?>
+    <?php print $this->tag->stylesheetLink('css/typography.css'); ?>
+    <?php print $this->tag->javascriptInclude('js/foundation/vendor/modernizr.js'); ?>
+  </head>
+  <body>
+   
+    <?php print $this->partial('partials/nav'); ?>
+    
+		<?php print $this->getContent(); ?>
+
+    <?php print $this->partial('partials/footer'); ?>
+
+  </body>
+</html>
