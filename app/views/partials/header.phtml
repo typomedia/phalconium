@@ -11,8 +11,7 @@
         <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="develop/build.html">Develop</a></li>
           <li><?php print $this->tag->linkTo("phalcon", "Phalcon"); ?></li>
           <li><?php print $this->tag->linkTo("foundation", "Foundation"); ?></li>
-          <li><a href="develop/resources.html">Resources</a></li>
-          <li><a href="develop/contribute.html">Contribute</a></li>
+          <li><?php print $this->tag->linkTo("docs", "Documention"); ?></li>
         </ul>
       </li>
       <li class="divider"></li>
@@ -20,7 +19,7 @@
         <?php print $this->tag->linkTo("about", "About"); ?>
       </li>
       <li class="divider"></li>
-      <li class="has-form"><a href="/docs" class="small button">Getting Started</a></li>
+      <li class="has-form"><?php print $this->tag->linkTo(array('docs', "Getting Started", 'class' => 'small button')); ?></li>
     </ul>
   </section>
 </nav> 
