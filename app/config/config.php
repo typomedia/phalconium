@@ -9,7 +9,7 @@ return new \Phalcon\Config(array(
 //        'dbname'      => 'oneandone',
 //        'charset'     => 'utf8',
         'adapter'       => 'Sqlite',
-        'dbname'        => APP_DIR . '/databases/oneandone.sqlite',
+        'dbname'        => APP_DIR . '/databases/phalconium.sqlite',
         'charset'       => 'utf8',
     ],
     'application' => array(
@@ -20,6 +20,6 @@ return new \Phalcon\Config(array(
         'libraryDir'     => APP_DIR . '/library/',
         'cacheDir'       => APP_DIR . '/cache/',
         'migrationsDir'  => APP_DIR . '/migrations/',
-        'baseUri'        => '/oneandone/',
+        'baseUri'        => '/phalconium/',
     )
 ));
