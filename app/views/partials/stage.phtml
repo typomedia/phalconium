@@ -1,26 +1,30 @@
-<nav class="top-bar" data-topbar="">
-  <ul class="title-area">
-    <li class="name"><h1><?php print $this->tag->linkTo("/", "Phalconium"); ?></h1></li>
-  </ul>
+<section id="homepage-hero">
+  <div class="row">
+    <div class="medium-7 large-6 columns">
+      <h1>Welcome to Phalconium</h1><br>
+      <h3>The most advanced responsive <br class="hide-for-small">WordPress theme in the world.</h3>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-4 medium-6 columns">
+      <?php print $this->tag->linkTo(array('docs', "Getting Started", 'class' => 'large button hide-for-small')); ?>
+      <?php print $this->tag->linkTo(array('docs', "Getting Started", 'class' => 'small button show-for-small')); ?>
+    </div>
+  </div>
+  <div class="floatingyeti">
+    <img src="http://foundation.zurb.com/assets/img/homepage/hero-image.svg">
+  </div>
+</section>
 
-  <section class="top-bar-section">
-    <ul class="right">
-      <li class="divider"></li>
-      <li class="has-dropdown not-click">
-        <a href="develop/build.html" class="">Develop</a>
-        <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="develop/build.html">Develop</a></li>
-          <li><?php print $this->tag->linkTo("phalcon", "Phalcon"); ?></li>
-          <li><?php print $this->tag->linkTo("foundation", "Foundation"); ?></li>
-          <li><a href="develop/resources.html">Resources</a></li>
-          <li><a href="develop/contribute.html">Contribute</a></li>
-        </ul>
-      </li>
-      <li class="divider"></li>
-      <li>
-        <?php print $this->tag->linkTo("about", "About"); ?>
-      </li>
-      <li class="divider"></li>
-      <li class="has-form"><a href="/docs" class="small button">Getting Started</a></li>
-    </ul>
-  </section>
-</nav> 
+<section class="apps-promo">
+  <div class="row">
+    <div class="small-8 columns">
+      <h3>Build with Foundation!</h3>
+      <p>The most advanced responsive front-end framework in the world.</p>
+    </div>
+    <div class="small-4 columns">
+      <?php print $this->tag->linkTo(array('foundation', "Check It Out!", 'class' => 'button right')); ?>
+    </div>
+  </div>
+</section>

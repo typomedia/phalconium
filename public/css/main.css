@@ -1,0 +1,39 @@
+#homepage-hero .floatingyeti img {
+  max-width: 40%;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+
+#homepage-hero {
+  background: url(http://foundation.zurb.com/assets/img/marquee-stars.svg) #074e68;
+  height: 500px;
+  text-align: left;
+  position: relative;
+  padding: 100px 20px 0 20px;
+  color: #fff !important;
+}
+
+#homepage-hero h1, 
+#homepage-hero h2, 
+#homepage-hero h3 {
+  color: #fff;
+}
+
+.apps-promo {
+  background: #085a78;
+  padding: 10px 0px;
+  height: auto;
+}
+
+.apps-promo h3, .apps-promo p {
+  color: white;
+}
+
+.apps-promo .button {
+  margin: 1em 0 0 0;
+}
+
+#main-content {
+  margin: 40px 0 20px;
+}
