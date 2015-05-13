@@ -37,3 +37,20 @@
 #main-content {
   margin: 40px 0 20px;
 }
+
+.zurb-footer-bottom {
+  background: #333333;
+  padding: 24px 0 10px;
+}
+
+.zurb-footer-bottom ul.zurb-links {
+  margin: 0;
+  display: inline-block;
+  padding-bottom: 0px;
+}
+
+.zurb-footer-bottom ul.home-social {
+  display: block;
+  float: right;
+  margin-bottom: 8px;
+}
