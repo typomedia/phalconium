@@ -19,6 +19,20 @@ footer {
   flex: none;
 }
 
+footer {
+  background: #333;
+  padding: 10px 0;
+  line-height: 2.8125rem;
+  margin-bottom: 0;
+  overflow: visible;
+  position: relative;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
 #homepage-hero .floatingyeti img {
   max-width: 40%;
   position: absolute;
