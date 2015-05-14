@@ -36,39 +36,41 @@ footer p {
   margin: 0;
 }
 
-#homepage-hero .floatingyeti img {
+#stage .floatingyeti img {
   max-width: 40%;
   position: absolute;
   right: 100px;
   top: 30px;
 }
 
-#homepage-hero {
+#stage {
   background: url(http://foundation.zurb.com/assets/img/marquee-stars.svg) #074e68;
   height: 500px;
   text-align: left;
   position: relative;
   padding: 100px 20px 0 20px;
   color: #fff !important;
+  flex: 1 0 auto;
 }
 
-#homepage-hero h1, 
-#homepage-hero h2, 
-#homepage-hero h3 {
+#stage h1, 
+#stage h2, 
+#stage h3 {
   color: #fff;
 }
 
-.apps-promo {
+.intro {
   background: #085a78;
   padding: 10px 0px;
   height: auto;
+  flex: 1 0 auto;
 }
 
-.apps-promo h3, .apps-promo p {
+.intro h3, .intro p {
   color: white;
 }
 
-.apps-promo .button {
+.intro .button {
   margin: 1em 0 0 0;
 }
 
