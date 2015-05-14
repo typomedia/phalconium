@@ -4,6 +4,18 @@ body {
   flex-direction: column;
 }
 
+pre {
+  display: block;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow: auto;
+  padding: 10px;
+  border-left: 3px solid #008CBA;
+  background: #2B2F3E;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
 #main-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
