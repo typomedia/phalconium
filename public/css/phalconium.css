@@ -8,6 +8,7 @@ pre {
   display: block;
   word-break: break-all;
   word-wrap: break-word;
+  white-space: pre-wrap;
   overflow: auto;
   padding: 10px;
   border-left: 3px solid #008CBA;
