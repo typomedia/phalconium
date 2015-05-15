@@ -20,6 +20,6 @@ return new \Phalcon\Config(array(
         'libraryDir'     => APP_DIR . '/library/',
         'cacheDir'       => APP_DIR . '/cache/',
         'migrationsDir'  => APP_DIR . '/migrations/',
-        'baseUri'        => '/phalconium/',
+        'baseUri'        => '/',
     )
 ));
