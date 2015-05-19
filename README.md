@@ -11,4 +11,6 @@ Phalconium is a skeleton application based on Phalcon PHP and ZURB Foundation. I
 
 Open `/app/config/config.php` and set the `baseUri` to `phalconium` if you have not set the `DocumentRoot` to `phalconium/public`.
 
+
+## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/typomedia/phalconium/master/screenshot.png "Phalconium Screenshot")
