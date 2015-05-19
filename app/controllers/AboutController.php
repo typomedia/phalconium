@@ -5,7 +5,7 @@ class AboutController extends ControllerBase
 
     public function indexAction()
     {
-      $this->tag->prependTitle("About &ndash; ");
+      $this->tag->prependTitle("About");
     }
 
 }

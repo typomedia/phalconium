@@ -5,7 +5,7 @@ class PhalconController extends ControllerBase
 
     public function indexAction()
     {
-      $this->tag->prependTitle("Phalcon &ndash; ");
+      $this->tag->prependTitle("Phalcon");
     }
 
 }

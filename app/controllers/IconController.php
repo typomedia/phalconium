@@ -5,7 +5,7 @@ class IconController extends ControllerBase
 
     public function indexAction()
     {
-      $this->tag->prependTitle("Fonticon &ndash; ");
+      $this->tag->prependTitle("Fonticon");
     }
 
 }

@@ -11,7 +11,7 @@ class PostsController extends ControllerBase
      */
     public function indexAction()
     {
-      $this->tag->prependTitle("Posts &ndash; ");
+      $this->tag->prependTitle("Posts");
       $this->persistent->parameters = null;
     }
 
