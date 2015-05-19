@@ -6,7 +6,7 @@ class ControllerBase extends Controller {
 
     protected function initialize()
     {
-        //$this->tag->prependTitle('Phalconium | ');
+      $this->tag->setTitle("Phalconium");
     }
   
 }
