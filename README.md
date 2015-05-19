@@ -9,7 +9,7 @@ Phalconium is a skeleton application based on Phalcon PHP and ZURB Foundation. I
 
 ## Getting Startet
 
-Phalcon is a PHP framework which is not written in PHP. It's an extension for PHP written in C. That means, you have to install it, before you can run it. Here you can read how to do that: [Phalcon Documentation - Installation](http://docs.phalconphp.com/en/latest/reference/install.html)
+Phalcon is a PHP framework which is not written in PHP. It's an extension for PHP written in C. That means, you have to install it, before you can run it. In the [Phalcon Documentation](http://docs.phalconphp.com/en/latest/reference/install.html) you can read how to do that.
 
 ```sh
 cd /var/www/
