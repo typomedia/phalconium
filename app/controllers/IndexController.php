@@ -6,7 +6,6 @@ class IndexController extends ControllerBase
     public function indexAction() {
       
     $this->tag->prependTitle("Welcome");
-    $this->tag->set
           
     $title = Option::findFirstByName("title");
     $this->view->setVar("title", $title->getValue());
