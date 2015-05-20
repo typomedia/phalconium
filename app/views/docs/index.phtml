@@ -3,9 +3,17 @@
     <div class="large-12 columns">
       <div>
         <h1>Getting Started</h1>
-        <h2>Installation</h2>
-        <pre>apt-get install php5-dev libpcre3-dev gcc make php5-mysql php5-sqlite</pre>
-       
+
+        <p>Phalcon is a PHP framework which is not written in PHP. It's an extension for PHP written in C. That means, you have to install it, before you can run it. In the Phalcon Documentation you can read how to do that.</p>
+
+        <p>To clone Phalconium to your local webserver you can simply run:</p>
+
+        <pre>cd /var/www/
+git clone https://github.com/typomedia/phalconium.git
+chown -R www-data:www-data phalconium/</pre>
+
+        <p>Open <code>/app/config/config.php</code> and set the <code>baseUri</code> to <code>/phalconium/</code> if you have not set the DocumentRoot to <code>phalconium/public</code>.</p>
+
       </div>
     </div>
   </div>
