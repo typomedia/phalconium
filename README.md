@@ -20,6 +20,7 @@ apt-get install apache2 php5 php5-sqlite
 a2enmod rewrite
 service apache2 restart
 ```
+## Installation
 
 To clone Phalconium to your local webserver you can simply run:
 
