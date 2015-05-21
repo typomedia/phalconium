@@ -1,6 +1,6 @@
 # Phalconium
 
-Phalconium is a skeleton application based on Phalcon PHP and ZURB Foundation. It comes along with a very strong feature set:
+Phalconium is a skeleton application based on [Phalcon PHP](http://phalconphp.com/) and [ZURB Foundation](http://foundation.zurb.com/). It comes along with a very strong feature set:
 
 * Support for MySQL, Postgres and SQLite
 * Responsive design with mobile first approach
