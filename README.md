@@ -11,6 +11,16 @@ Phalconium is a skeleton application based on Phalcon PHP and ZURB Foundation. I
 
 Phalcon is a PHP framework which is not written in PHP. It's an extension for PHP written in C. That means, you have to install it, before you can run it. In the [Phalcon Documentation](http://docs.phalconphp.com/en/latest/reference/install.html) you can read how to do that.
 
+## Requirements
+
+At least you need the following to run Phalconium on your machine:
+
+```sh
+apt-get install apache2 php5 php5-sqlite
+a2enmod rewrite
+service apache2 restart
+```
+
 To clone Phalconium to your local webserver you can simply run:
 
 ```sh
