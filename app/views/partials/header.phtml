@@ -1,14 +1,44 @@
-<nav class="top-bar" data-topbar="">
+<aside class="left-off-canvas-menu">
+  <ul class="off-canvas-list">
+    <li><label class="first">Phalconium</label></li>
+    <li><?php print $this->tag->linkTo("/", "Home"); ?></li>
+  </ul>
+  <ul class="off-canvas-list">
+    <li><label>Develop</label></li>
+    <li><?php print $this->tag->linkTo("phalcon", "Phalcon"); ?></li>
+    <li><?php print $this->tag->linkTo("foundation", "Foundation"); ?></li>
+    <li><?php print $this->tag->linkTo("typo", "Typography"); ?></li>
+    <li><?php print $this->tag->linkTo("icon", "Fonticons"); ?></li>
+    <li><?php print $this->tag->linkTo("docs", "Documention"); ?></li>
+  </ul>
+  <ul class="off-canvas-list">
+    <li><label>About</label></li>
+    <li><?php print $this->tag->linkTo("about", "About"); ?></li>
+  </ul>
+  <ul class="off-canvas-list">
+    <li><label>Getting Started</label></li>
+    <li><?php print $this->tag->linkTo(array('docs', 'Getting Started', 'class' => 'button')); ?></li>
+  </ul>
+</aside>
+
+<nav class="tab-bar show-for-small">
+  <a class="left-off-canvas-toggle menu-icon ">
+    <span>Phalconium</span>
+  </a>
+</nav>
+
+<nav class="top-bar hide-for-small" data-topbar="">
   <ul class="title-area">
     <li class="name"><h1><?php print $this->tag->linkTo("/", "Phalconium"); ?></h1></li>
   </ul>
 
   <section class="top-bar-section">
-    <ul class="right">
+    <ul>
       <li class="divider"></li>
       <li class="has-dropdown not-click">
         <a href="#" class="">Develop</a>
-        <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="develop/build.html">Develop</a></li>
+        <ul class="dropdown">
+          <li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="develop/build.html">Develop</a></li>
           <li><?php print $this->tag->linkTo("phalcon", "Phalcon"); ?></li>
           <li><?php print $this->tag->linkTo("foundation", "Foundation"); ?></li>
           <li><?php print $this->tag->linkTo("typo", "Typography"); ?></li>
@@ -17,9 +47,7 @@
         </ul>
       </li>
       <li class="divider"></li>
-      <li>
-        <?php print $this->tag->linkTo("about", "About"); ?>
-      </li>
+      <li><?php print $this->tag->linkTo("about", "About"); ?></li>
       <li class="divider"></li>
       <li class="has-form"><?php print $this->tag->linkTo(array('docs', "Getting Started", 'class' => 'small button')); ?></li>
     </ul>
