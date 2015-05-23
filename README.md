@@ -17,6 +17,7 @@ At least you need the following to run Phalconium on your machine:
 
 ```sh
 apt-get install apache2 php5 php5-sqlite
+echo extension=phalcon.so > /etc/php5/apache2/conf.d/30-phalcon.ini
 a2enmod rewrite
 service apache2 restart
 ```
