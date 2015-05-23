@@ -10,13 +10,17 @@
     <?php print $this->tag->stylesheetLink('css/phalconium.css'); ?>
     <?php print $this->tag->javascriptInclude('js/foundation/vendor/modernizr.js'); ?>
   </head>
-  <body>
+  <body id="<?php print $this->dispatcher->getControllerName(); ?>">
+    <div class="off-canvas-wrap" data-offcanvas="">
+      <div class="inner-wrap">
 
-    <?php print $this->partial('partials/header'); ?>
+        <?php print $this->partial('partials/header'); ?>
 
-    <?php print $this->getContent(); ?>
+        <?php print $this->getContent(); ?>
 
-    <?php print $this->partial('partials/footer'); ?>
+        <?php print $this->partial('partials/footer'); ?>
 
+      </div>
+    </div>
   </body>
 </html>
