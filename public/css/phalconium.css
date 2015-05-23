@@ -1,20 +1,7 @@
-body {
+div.inner-wrap {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
-
-pre {
-  display: block;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  overflow: auto;
-  padding: 10px;
-  border-left: 3px solid #008CBA;
-  background: #2B2F3E;
-  color: #fff;
-  margin-bottom: 10px;
 }
 
 #main-content {
@@ -41,7 +28,14 @@ footer {
 }
 
 .top-bar {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
   flex: none;
+}
+
+.top-bar-section {
+  right: 0;
 }
 
 footer p {
@@ -49,14 +43,14 @@ footer p {
   margin: 0;
 }
 
-#stage .floatingyeti img {
+.stage .floatingyeti img {
   max-width: 40%;
   position: absolute;
   right: 100px;
   top: 30px;
 }
 
-#stage {
+.stage {
   background: url(http://foundation.zurb.com/assets/img/marquee-stars.svg) #074e68;
   height: 500px;
   text-align: left;
@@ -66,9 +60,9 @@ footer p {
   flex: 1 0 auto;
 }
 
-#stage h1, 
-#stage h2, 
-#stage h3 {
+.stage h1, 
+.stage h2, 
+.stage h3 {
   color: #fff;
 }
 
