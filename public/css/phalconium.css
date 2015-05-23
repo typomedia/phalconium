@@ -58,6 +58,13 @@ footer p {
   padding: 100px 20px 0 20px;
   color: #fff !important;
   flex: 1 0 auto;
+  border-bottom: 1px solid #333;
+}
+
+#phalcon .stage {
+  background: url(../img/falcon.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .stage h1, 
