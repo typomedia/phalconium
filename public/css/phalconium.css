@@ -1,37 +1,35 @@
+html, body {
+  height: 100%
+}
+
+div.off-canvas-wrap {
+  height: auto;
+  min-height: 100%;
+}
+
 div.inner-wrap {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-#main-content {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-}
-
-footer {
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
+  margin-bottom: 40px;
 }
 
 footer {
   background: #333;
   padding: 10px 0;
   line-height: 2.8125rem;
+  height: 40px;
+  margin-top: -40px;
   margin-bottom: 0;
   overflow: visible;
   position: relative;
 }
 
-.top-bar {
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
+@media screen and (max-width: 980px) {
+  footer {
+    display: block;
+    position: relative;
+    margin-top: inherit;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .top-bar-section {
@@ -57,7 +55,7 @@ footer p {
   position: relative;
   padding: 100px 20px 0 20px;
   color: #fff !important;
-  flex: 1 0 auto;
+  /*flex: 1 0 auto;*/
   border-bottom: 1px solid #333;
 }
 
@@ -88,7 +86,7 @@ footer p {
   margin: 1em 0 0 0;
 }
 
-#main-content {
+.main {
   margin: 40px 0 20px;
 }
 
