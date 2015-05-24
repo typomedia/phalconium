@@ -57,10 +57,10 @@ footer p {
   height: 500px;
   text-align: left;
   position: relative;
-  padding: 100px 20px 0 20px;
+  padding: 80px 20px 0 20px;
   color: #fff !important;
   /*flex: 1 0 auto;*/
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
 
 #phalcon .stage {
