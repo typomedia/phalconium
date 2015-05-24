@@ -34,4 +34,7 @@ chown -R www-data:www-data phalconium/
 Open `/app/config/config.php` and set the `baseUri` to `phalconium` if you have not set the `DocumentRoot` to `phalconium/public`.
 
 ## Screenshot
+
+See Phalconium in action: [phalconium.typomedia.org](http://phalconium.typomedia.org/)
+
 ![Screenshot](https://raw.githubusercontent.com/typomedia/phalconium/master/screenshot.png "Phalconium Screenshot")
