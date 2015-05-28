@@ -6,8 +6,12 @@ class ControllerBase extends Controller {
 
     protected function initialize()
     {
-      $this->tag->setTitle("Phalconium");
-      $this->tag->setTitleSeparator(" &ndash; ");
+     	$this->tag->setTitle("Phalconium");
+     	$this->tag->setTitleSeparator(" &ndash; ");
+
+    	$controller = $this->dispatcher->getControllerName();
+    	$post = Posts::findFirst("controller = '$controller'");
+    	$this->view->setVar("content", $post);
     }
   
 }

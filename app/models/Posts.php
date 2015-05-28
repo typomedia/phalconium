@@ -19,6 +19,12 @@ class Posts extends \Phalcon\Mvc\Model {
    * @var string
    */
   public $post;
+  
+  /**
+   *
+   * @var string
+   */
+  public $controller;
 
   public function getId() {
     return $this->id;

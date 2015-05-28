@@ -13,6 +13,10 @@ class IndexController extends ControllerBase
     $claim = Option::findFirstByName("claim");
     $this->view->setVar("claim", $claim->getValue());
 
+    $controller = $this->dispatcher->getControllerName();
+    $post = Posts::findFirst("controller = '$controller'");
+    $this->view->setVar("content", $post);
+
     // CSS in the header
     $this->assets
             ->collection('header')
