@@ -35,6 +35,6 @@ Open `/app/config/config.php` and set the `baseUri` to `phalconium` if you have 
 
 ## Screenshot
 
-See Phalconium in action: [phalconium.typomedia.org](http://phalconium.typomedia.org/)
+See Phalconium in action: [phalcon.typo.media](https://phalcon.typo.media/)
 
 ![Screenshot](https://raw.githubusercontent.com/typomedia/phalconium/master/screenshot.png "Phalconium Screenshot")
